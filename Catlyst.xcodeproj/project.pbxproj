@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC859B7E28590D2A0073B5DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC859B7D28590D2A0073B5DD /* AppDelegate.swift */; };
+		CC859B8028590D2A0073B5DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC859B7F28590D2A0073B5DD /* SceneDelegate.swift */; };
+		CC859B8228590D2A0073B5DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC859B8128590D2A0073B5DD /* ViewController.swift */; };
+		CC859B8528590D2A0073B5DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC859B8328590D2A0073B5DD /* Main.storyboard */; };
+		CC859B8828590D2A0073B5DD /* Catlyst.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC859B8628590D2A0073B5DD /* Catlyst.xcdatamodeld */; };
+		CC859B8A28590D330073B5DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC859B8928590D330073B5DD /* Assets.xcassets */; };
+		CC859B8D28590D330073B5DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC859B8B28590D330073B5DD /* LaunchScreen.storyboard */; };
+		CC859B9828590D340073B5DD /* CatlystTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC859B9728590D340073B5DD /* CatlystTests.swift */; };
+		CC859BA328590D340073B5DD /* CatlystUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC859BA228590D340073B5DD /* CatlystUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC859B9428590D340073B5DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC859B7228590D2A0073B5DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC859B7928590D2A0073B5DD;
+			remoteInfo = Catlyst;
+		};
+		CC859B9F28590D340073B5DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC859B7228590D2A0073B5DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC859B7928590D2A0073B5DD;
+			remoteInfo = Catlyst;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC859B7A28590D2A0073B5DD /* Catlyst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catlyst.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC859B7D28590D2A0073B5DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC859B7F28590D2A0073B5DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC859B8128590D2A0073B5DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC859B8428590D2A0073B5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC859B8728590D2A0073B5DD /* Catlyst.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Catlyst.xcdatamodel; sourceTree = "<group>"; };
+		CC859B8928590D330073B5DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC859B8C28590D330073B5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC859B8E28590D330073B5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC859B9328590D340073B5DD /* CatlystTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatlystTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC859B9728590D340073B5DD /* CatlystTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatlystTests.swift; sourceTree = "<group>"; };
+		CC859B9928590D340073B5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC859B9E28590D340073B5DD /* CatlystUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatlystUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC859BA228590D340073B5DD /* CatlystUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatlystUITests.swift; sourceTree = "<group>"; };
+		CC859BA428590D340073B5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC859B7728590D2A0073B5DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC859B9028590D340073B5DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC859B9B28590D340073B5DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC859B7128590D2A0073B5DD = {
+			isa = PBXGroup;
+			children = (
+				CC859B7C28590D2A0073B5DD /* Catlyst */,
+				CC859B9628590D340073B5DD /* CatlystTests */,
+				CC859BA128590D340073B5DD /* CatlystUITests */,
+				CC859B7B28590D2A0073B5DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC859B7B28590D2A0073B5DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC859B7A28590D2A0073B5DD /* Catlyst.app */,
+				CC859B9328590D340073B5DD /* CatlystTests.xctest */,
+				CC859B9E28590D340073B5DD /* CatlystUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC859B7C28590D2A0073B5DD /* Catlyst */ = {
+			isa = PBXGroup;
+			children = (
+				CC859B7D28590D2A0073B5DD /* AppDelegate.swift */,
+				CC859B7F28590D2A0073B5DD /* SceneDelegate.swift */,
+				CC859B8128590D2A0073B5DD /* ViewController.swift */,
+				CC859B8328590D2A0073B5DD /* Main.storyboard */,
+				CC859B8928590D330073B5DD /* Assets.xcassets */,
+				CC859B8B28590D330073B5DD /* LaunchScreen.storyboard */,
+				CC859B8E28590D330073B5DD /* Info.plist */,
+				CC859B8628590D2A0073B5DD /* Catlyst.xcdatamodeld */,
+			);
+			path = Catlyst;
+			sourceTree = "<group>";
+		};
+		CC859B9628590D340073B5DD /* CatlystTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC859B9728590D340073B5DD /* CatlystTests.swift */,
+				CC859B9928590D340073B5DD /* Info.plist */,
+			);
+			path = CatlystTests;
+			sourceTree = "<group>";
+		};
+		CC859BA128590D340073B5DD /* CatlystUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC859BA228590D340073B5DD /* CatlystUITests.swift */,
+				CC859BA428590D340073B5DD /* Info.plist */,
+			);
+			path = CatlystUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC859B7928590D2A0073B5DD /* Catlyst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC859BA728590D340073B5DD /* Build configuration list for PBXNativeTarget "Catlyst" */;
+			buildPhases = (
+				CC859B7628590D2A0073B5DD /* Sources */,
+				CC859B7728590D2A0073B5DD /* Frameworks */,
+				CC859B7828590D2A0073B5DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Catlyst;
+			productName = Catlyst;
+			productReference = CC859B7A28590D2A0073B5DD /* Catlyst.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC859B9228590D340073B5DD /* CatlystTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC859BAA28590D340073B5DD /* Build configuration list for PBXNativeTarget "CatlystTests" */;
+			buildPhases = (
+				CC859B8F28590D340073B5DD /* Sources */,
+				CC859B9028590D340073B5DD /* Frameworks */,
+				CC859B9128590D340073B5DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC859B9528590D340073B5DD /* PBXTargetDependency */,
+			);
+			name = CatlystTests;
+			productName = CatlystTests;
+			productReference = CC859B9328590D340073B5DD /* CatlystTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC859B9D28590D340073B5DD /* CatlystUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC859BAD28590D340073B5DD /* Build configuration list for PBXNativeTarget "CatlystUITests" */;
+			buildPhases = (
+				CC859B9A28590D340073B5DD /* Sources */,
+				CC859B9B28590D340073B5DD /* Frameworks */,
+				CC859B9C28590D340073B5DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC859BA028590D340073B5DD /* PBXTargetDependency */,
+			);
+			name = CatlystUITests;
+			productName = CatlystUITests;
+			productReference = CC859B9E28590D340073B5DD /* CatlystUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC859B7228590D2A0073B5DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CC859B7928590D2A0073B5DD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CC859B9228590D340073B5DD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CC859B7928590D2A0073B5DD;
+					};
+					CC859B9D28590D340073B5DD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CC859B7928590D2A0073B5DD;
+					};
+				};
+			};
+			buildConfigurationList = CC859B7528590D2A0073B5DD /* Build configuration list for PBXProject "Catlyst" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC859B7128590D2A0073B5DD;
+			productRefGroup = CC859B7B28590D2A0073B5DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC859B7928590D2A0073B5DD /* Catlyst */,
+				CC859B9228590D340073B5DD /* CatlystTests */,
+				CC859B9D28590D340073B5DD /* CatlystUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC859B7828590D2A0073B5DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC859B8D28590D330073B5DD /* LaunchScreen.storyboard in Resources */,
+				CC859B8A28590D330073B5DD /* Assets.xcassets in Resources */,
+				CC859B8528590D2A0073B5DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC859B9128590D340073B5DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC859B9C28590D340073B5DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC859B7628590D2A0073B5DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC859B8828590D2A0073B5DD /* Catlyst.xcdatamodeld in Sources */,
+				CC859B8228590D2A0073B5DD /* ViewController.swift in Sources */,
+				CC859B7E28590D2A0073B5DD /* AppDelegate.swift in Sources */,
+				CC859B8028590D2A0073B5DD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC859B8F28590D340073B5DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC859B9828590D340073B5DD /* CatlystTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC859B9A28590D340073B5DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC859BA328590D340073B5DD /* CatlystUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC859B9528590D340073B5DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC859B7928590D2A0073B5DD /* Catlyst */;
+			targetProxy = CC859B9428590D340073B5DD /* PBXContainerItemProxy */;
+		};
+		CC859BA028590D340073B5DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC859B7928590D2A0073B5DD /* Catlyst */;
+			targetProxy = CC859B9F28590D340073B5DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC859B8328590D2A0073B5DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC859B8428590D2A0073B5DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC859B8B28590D330073B5DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC859B8C28590D330073B5DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC859BA528590D340073B5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC859BA628590D340073B5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC859BA828590D340073B5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Catlyst/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AparajitaGupta.Catlyst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC859BA928590D340073B5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Catlyst/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AparajitaGupta.Catlyst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC859BAB28590D340073B5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatlystTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AparajitaGupta.CatlystTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Catlyst.app/Catlyst";
+			};
+			name = Debug;
+		};
+		CC859BAC28590D340073B5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatlystTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AparajitaGupta.CatlystTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Catlyst.app/Catlyst";
+			};
+			name = Release;
+		};
+		CC859BAE28590D340073B5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatlystUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AparajitaGupta.CatlystUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Catlyst;
+			};
+			name = Debug;
+		};
+		CC859BAF28590D340073B5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatlystUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AparajitaGupta.CatlystUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Catlyst;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC859B7528590D2A0073B5DD /* Build configuration list for PBXProject "Catlyst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC859BA528590D340073B5DD /* Debug */,
+				CC859BA628590D340073B5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC859BA728590D340073B5DD /* Build configuration list for PBXNativeTarget "Catlyst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC859BA828590D340073B5DD /* Debug */,
+				CC859BA928590D340073B5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC859BAA28590D340073B5DD /* Build configuration list for PBXNativeTarget "CatlystTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC859BAB28590D340073B5DD /* Debug */,
+				CC859BAC28590D340073B5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC859BAD28590D340073B5DD /* Build configuration list for PBXNativeTarget "CatlystUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC859BAE28590D340073B5DD /* Debug */,
+				CC859BAF28590D340073B5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC859B8628590D2A0073B5DD /* Catlyst.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC859B8728590D2A0073B5DD /* Catlyst.xcdatamodel */,
+			);
+			currentVersion = CC859B8728590D2A0073B5DD /* Catlyst.xcdatamodel */;
+			path = Catlyst.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC859B7228590D2A0073B5DD /* Project object */;
+}
