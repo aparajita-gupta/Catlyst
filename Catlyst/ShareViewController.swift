@@ -9,15 +9,20 @@ import UIKit
 
 class ShareViewController: UIViewController {
 
-    @IBOutlet weak var time: UILabel!
+    @IBOutlet weak var hoursD: UILabel!
+    @IBOutlet weak var minutesD: UILabel!
+    @IBOutlet weak var secondsD: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        time.text = "\(hours)h \(minutes)m \(theSeconds)s"
+        hoursD.text = "\(hours)"
+        minutesD.text = "\(minutes)"
+        secondsD.text = "\(theSeconds)"
+        
     }
-    
 
     /*
     // MARK: - Navigation
