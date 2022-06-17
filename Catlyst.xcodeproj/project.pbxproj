@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		058E8E2E285C67C900316333 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058E8E2D285C67C900316333 /* ShareViewController.swift */; };
 		BD4F2088285A352200B07665 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F2087285A352200B07665 /* ToDoViewController.swift */; };
 		BD4F208A285A361F00B07665 /* TimerSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F2089285A361E00B07665 /* TimerSwiftUIView.swift */; };
 		BD4F208C285A364E00B07665 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F208B285A364E00B07665 /* TimerViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		058E8E2D285C67C900316333 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		BD4F2087285A352200B07665 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 		BD4F2089285A361E00B07665 /* TimerSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSwiftUIView.swift; sourceTree = "<group>"; };
 		BD4F208B285A364E00B07665 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		CC859B7C28590D2A0073B5DD /* Catlyst */ = {
 			isa = PBXGroup;
 			children = (
+				058E8E2D285C67C900316333 /* ShareViewController.swift */,
 				CC859B7D28590D2A0073B5DD /* AppDelegate.swift */,
 				CC859B7F28590D2A0073B5DD /* SceneDelegate.swift */,
 				CC859B8128590D2A0073B5DD /* ViewController.swift */,
@@ -278,6 +281,7 @@
 			files = (
 				BD4F208A285A361F00B07665 /* TimerSwiftUIView.swift in Sources */,
 				BD4F2088285A352200B07665 /* ToDoViewController.swift in Sources */,
+				058E8E2E285C67C900316333 /* ShareViewController.swift in Sources */,
 				BDDF0D7F285C503B00EB7611 /* TimeConversions.swift in Sources */,
 				CC859B8828590D2A0073B5DD /* Catlyst.xcdatamodeld in Sources */,
 				BD4F208C285A364E00B07665 /* TimerViewController.swift in Sources */,
