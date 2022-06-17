@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1Ls-md-LT3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1Ls-md-LT3">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -171,7 +172,6 @@
                                 <fontDescription key="fontDescription" name="SofiaPro-Bold" family="Sofia Pro" pointSize="61"/>
                                 <color key="textColor" red="0.79900664089999995" green="0.43903598189999998" blue="0.29267394540000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.37919691210000001" green="0.25580918790000001" blue="0.13931703570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I studied for" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8X-Tc-BLw">
                                 <rect key="frame" x="35" y="194" width="344" height="66"/>
@@ -190,7 +190,6 @@
                         <outlet property="hoursD" destination="Iad-i0-bzE" id="2by-6u-pIY"/>
                         <outlet property="minutesD" destination="hG4-y9-W4N" id="ZzA-nu-zjY"/>
                         <outlet property="secondsD" destination="khz-Yk-yVh" id="wKC-lv-hbA"/>
-                        <outlet property="time" destination="Iad-i0-bzE" id="kqv-Df-4EQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U1l-aS-BSL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -217,7 +216,7 @@
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Share" id="jFh-tw-jhT">
                                             <connections>
-                                                <segue destination="HBf-oo-fHj" kind="show" id="w3D-tY-1bg"/>
+                                                <segue destination="HBf-oo-fHj" kind="show" id="VHo-Zv-4Zw"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>

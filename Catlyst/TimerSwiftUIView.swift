@@ -55,10 +55,10 @@ struct TimerSwiftUIView: View {
             
             HStack(spacing: 25) {
                 Label("\(isActive ? "pause" : "play")", systemImage: "\(isActive ? "pause.fill" : "play.fill")").padding(10).background(Color(hex:"E7BF82")).foregroundColor(Color(hex:"CA7050"))
-                    .font(Font.custom("Sofia Pro-Black", size: 20)).onTapGesture(perform: {
+                    .font(Font.custom("Sofia Pro Black Az", size: 20)).onTapGesture(perform: {
                     isActive.toggle()
                 })
-                Label("restart", systemImage: "gobackward").foregroundColor(Color(hex:"CA7050")).padding(10).background(Color(hex:"E7BF82")).font(Font.custom("Sofia Pro-Black", size: 20)).onTapGesture(perform:{
+                Label("restart", systemImage: "gobackward").foregroundColor(Color(hex:"CA7050")).padding(10).background(Color(hex:"E7BF82")).font(Font.custom("Sofia Pro Black Az", size: 20)).onTapGesture(perform:{
                     isActive = false
                     timeRemaining = defaultTimeRemaining
                 })
