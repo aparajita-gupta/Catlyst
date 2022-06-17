@@ -13,6 +13,7 @@ var isActive:Bool?
 public let defaultTimeRemaining: CGFloat = CGFloat(seconds)
 public var hours = 0
 public var minutes = 0
+public var theSeconds = 0
 
 struct TimerSwiftUIView: View {
     @State private var timeRemaining = defaultTimeRemaining
@@ -28,7 +29,7 @@ struct TimerSwiftUIView: View {
         }else{
             minutes = placeholderMinutes //4
         }
-        let theSeconds = defaultTimeRemaining%60
+        theSeconds = defaultTimeRemaining%60
         return String(format: "%02i:%02i:%02i", hours, minutes, theSeconds)
     }
     var body: some View {
