@@ -73,7 +73,7 @@ struct TimerSwiftUIView: View {
         })
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color(hex:"A0BF8A"))
-
+        .edgesIgnoringSafeArea([.top, .bottom])
     }
 }
 struct TimerSwiftUIView_Previews: PreviewProvider {

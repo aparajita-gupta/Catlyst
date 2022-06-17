@@ -18,6 +18,22 @@ class ViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     
     
+    override func viewWillAppear(_ animated: Bool) {
+           super.viewWillAppear(animated)
+           navigationController?.navigationBar.prefersLargeTitles = true
+
+           let appearance = UINavigationBarAppearance()
+           
+        appearance.backgroundColor = UIColor(red: 160/255.0, green: 191/255.0, blue: 138/255.0, alpha: 1.0)
+           appearance.titleTextAttributes = [.foregroundColor: UIColor.blue]
+           appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+
+           navigationController?.navigationBar.tintColor = .blue
+           navigationController?.navigationBar.standardAppearance = appearance
+           navigationController?.navigationBar.compactAppearance = appearance
+           navigationController?.navigationBar.scrollEdgeAppearance = appearance
+   }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
