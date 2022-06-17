@@ -10,6 +10,7 @@
 		BD4F2088285A352200B07665 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F2087285A352200B07665 /* ToDoViewController.swift */; };
 		BD4F208A285A361F00B07665 /* TimerSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F2089285A361E00B07665 /* TimerSwiftUIView.swift */; };
 		BD4F208C285A364E00B07665 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F208B285A364E00B07665 /* TimerViewController.swift */; };
+		BDDF0D7F285C503B00EB7611 /* TimeConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF0D7E285C503A00EB7611 /* TimeConversions.swift */; };
 		CC44EDE1285BA63300D95C46 /* toDo_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC44EDE0285BA63300D95C46 /* toDo_TableViewController.swift */; };
 		CC859B7E28590D2A0073B5DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC859B7D28590D2A0073B5DD /* AppDelegate.swift */; };
 		CC859B8028590D2A0073B5DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC859B7F28590D2A0073B5DD /* SceneDelegate.swift */; };
@@ -43,6 +44,7 @@
 		BD4F2087285A352200B07665 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 		BD4F2089285A361E00B07665 /* TimerSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSwiftUIView.swift; sourceTree = "<group>"; };
 		BD4F208B285A364E00B07665 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		BDDF0D7E285C503A00EB7611 /* TimeConversions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversions.swift; sourceTree = "<group>"; };
 		CC44EDE0285BA63300D95C46 /* toDo_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDo_TableViewController.swift; sourceTree = "<group>"; };
 		CC859B7A28590D2A0073B5DD /* Catlyst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catlyst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC859B7D28590D2A0073B5DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				BD4F2087285A352200B07665 /* ToDoViewController.swift */,
 				BD4F2089285A361E00B07665 /* TimerSwiftUIView.swift */,
 				BD4F208B285A364E00B07665 /* TimerViewController.swift */,
+				BDDF0D7E285C503A00EB7611 /* TimeConversions.swift */,
 			);
 			path = Catlyst;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			files = (
 				BD4F208A285A361F00B07665 /* TimerSwiftUIView.swift in Sources */,
 				BD4F2088285A352200B07665 /* ToDoViewController.swift in Sources */,
+				BDDF0D7F285C503B00EB7611 /* TimeConversions.swift in Sources */,
 				CC859B8828590D2A0073B5DD /* Catlyst.xcdatamodeld in Sources */,
 				BD4F208C285A364E00B07665 /* TimerViewController.swift in Sources */,
 				CC859B8228590D2A0073B5DD /* ViewController.swift in Sources */,

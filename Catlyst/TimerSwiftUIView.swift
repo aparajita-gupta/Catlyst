@@ -6,18 +6,34 @@
 //
 
 import SwiftUI
-let defaultTimeRemaining: CGFloat = 10
+//let defaultTimeRemaining: CGFloat = 10
 let lineWidth: CGFloat = 20
 let radius: CGFloat = 70
 var isActive:Bool?
+public let defaultTimeRemaining: CGFloat = CGFloat(seconds)
+public var hours = 0
+public var minutes = 0
 
 struct TimerSwiftUIView: View {
+    @State private var timeRemaining = defaultTimeRemaining
     @State private var isActive = false
-    @State private var timeRemaining: CGFloat = defaultTimeRemaining
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    //275 seconds
+    //02:01:14
+    func convertSecondsToTime(defaultTimeRemaining : Int) -> String {
+        var placeholderMinutes = defaultTimeRemaining / 60 //4
+        if(placeholderMinutes >= 60){
+            hours = placeholderMinutes/60 //2
+            minutes = placeholderMinutes - 60*hours //1
+        }else{
+            minutes = placeholderMinutes //4
+        }
+        let theSeconds = defaultTimeRemaining%60
+        return String(format: "%02i:%02i:%02i", hours, minutes, theSeconds)
+    }
     var body: some View {
         VStack(spacing: 90){
-            Text("\(Int(timeRemaining))").font(Font.custom("Sofia Pro", size: 96))
+            Text(convertSecondsToTime(defaultTimeRemaining: Int(timeRemaining))).font(Font.custom("Sofia Pro", size: 96))
                 .fontWeight(.black)
                 .foregroundColor(.white)
             ZStack{
